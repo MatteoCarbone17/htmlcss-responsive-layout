@@ -9,7 +9,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
+
 
 .flex-column{
     display: flex;
@@ -45,22 +47,50 @@
 
 
 .cards-container{
-    
     margin: 0 auto;
     width: 80%;
     margin-top: 3rem;
-    background-color: brown;
-}
-
-
-.cards{
-    border-radius: 1.5rem; 
     
 }
 
+
+
 .cards-blu{
-    background-color: rgb(0, 132, 253);
+    background-color: rgb(181, 221, 255);
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem 1.5rem 0;
+
 }
+
+.cards-blu>h3{
+    color: rgb(0, 132, 253);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.cards-blu>p{
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.cards-blu button.blue-button{
+    font-size: 1.4rem;
+    padding: .7rem 4rem .7rem 4rem;
+    color: white;
+    background-color: rgb(0, 132, 253);
+    border: none;
+    border-radius: 5rem;
+    
+}
+
+div#img-phone>img{
+    width: 100%;
+    padding-top: 4rem;
+    margin-bottom: 0;
+}
+
 
 #planning-section-font{
     background-color: rgb(151, 146, 228);
@@ -156,19 +186,23 @@ color: black;
         background-color: brown;
     }
 
-    .cards-container .cards{
-        width: calc(100%/ 3);
-        background-color: rgb(0, 132, 253);
+    .cards-container .cards-blu{
+        width: calc(90%/ 3);
+        background-color: rgb(181, 221, 255);
+        margin: 1rem;
+        
         
         
     }
     
-    .cards-container .cards:first-child{
-        height: 7rem;
-        margin: 0;
-        width: calc((100%/ 3) *2);
-        background-color: rgb(0, 132, 253);
+    .cards-container .cards-blu:first-child{
+        width: calc((90%/ 3) *2);
+        background-color: rgb(181, 221, 255);
         
+    }
+
+    div#img-phone>img{
+        width: 20%;
     }
 
 
@@ -184,6 +218,7 @@ color: black;
     
     #benefits-container{
         margin: 0 auto;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         background-color: red;
@@ -191,13 +226,13 @@ color: black;
     }
     
     
-    #benefits-container>.benefit-card{
+    .benefit-card{
         background-color: white;
         color: rgb(151, 146, 228);
         border-radius: 1.5rem;
         margin: 5px;
         font-size: 1.5rem;
-        width: calc(100% / 3) -5px;
+        width: calc(97% / 3);
     }
 
     #about-us{
