@@ -15,10 +15,16 @@
 
 /* Mobile first */
 
-#header-container{
-    width: 100%;
+
+#header-font{
     background-color: rgb(0, 132, 253);
     height: 5vh;
+}
+
+#div-container{ 
+    margin: 0 auto;
+    width: 80%;
+    
 }
 
 #logo{
@@ -41,8 +47,67 @@
 
 
 .cards{
-    height: 15%;
-    margin-bottom: 2.5rem;
+    margin: 2rem;
+    border-radius: 1.5rem; 
+    height: 300px
+}
+
+.cards-blu{
     background-color: rgb(0, 132, 253);
-    border-radius: 15%;
+}
+
+#planning-section-font{
+    background-color: rgb(151, 146, 228);
+    width: 100%;    
+}
+
+
+div.white-card{
+    background-color: white;
+}
+
+/* Desktop*/
+
+@media screen and (min-width: 992px ) {
+
+
+    #div-container{ 
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+
+    .cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 3.5rem;
+        background-color: brown;
+    }
+
+    .cards-container .cards{
+        height: 7rem;
+        width: calc(100%/ 3);
+        background-color: rgb(0, 132, 253);
+        border: 1px solid white;
+        
+    }
+    
+    .cards-container .cards:first-child{
+        height: 7rem;
+        margin: 0;
+        width: calc((100%/ 3) *2);
+        background-color: rgb(0, 132, 253);
+        
+    }
+
+
+    div.plannig-container{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    
 }
