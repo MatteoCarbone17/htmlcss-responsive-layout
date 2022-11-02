@@ -11,6 +11,12 @@
     align-items: center;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 /* Mobile first */
@@ -39,17 +45,17 @@
 
 
 .cards-container{
+    
     margin: 0 auto;
     width: 80%;
-    margin-top: 3.5rem;
+    margin-top: 3rem;
     background-color: brown;
 }
 
 
 .cards{
-    margin: 2rem;
     border-radius: 1.5rem; 
-    height: 300px
+    
 }
 
 .cards-blu{
@@ -65,6 +71,26 @@
 div.white-card{
     background-color: white;
 }
+
+
+#testimonials{
+    margin: 0 auto;
+    width: 80%;
+    background: lightblue;
+    
+}
+
+.head-testimonial{
+    margin: 1.5rem 0 1.5rem 0;
+
+}
+
+.card-testimonial{
+    background-color: rgb(151, 146, 228);
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+
 
 /* Desktop*/
 
@@ -83,11 +109,11 @@ div.white-card{
         margin: 0 auto;
         width: 80%;
         margin-top: 3.5rem;
+        margin-bottom: 3.5rem;
         background-color: brown;
     }
 
     .cards-container .cards{
-        height: 7rem;
         width: calc(100%/ 3);
         background-color: rgb(0, 132, 253);
         border: 1px solid white;
@@ -106,7 +132,7 @@ div.white-card{
     div.plannig-container{
         display: flex;
         margin: 0 auto;
-        width: 80%;
+        width: 60%;
     }
 
     
