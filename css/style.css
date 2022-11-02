@@ -91,6 +91,38 @@ div.white-card{
 }
 
 
+#benefits-section{
+    background-color: rgb(151, 146, 228);
+}
+
+#benefits-container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.benefit-card{
+    background-color: white;
+    color: rgb(151, 146, 228);
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+div.benefit-card>p{
+color: black;
+}
+
+
+.article-about-us{
+    text-align: center;
+    background-color: aqua;
+
+}
+.card-about-us{
+    background-color: bisque;
+    text-align: left;
+    font-size: 1.5rem;
+}
 
 /* Desktop*/
 
@@ -116,7 +148,7 @@ div.white-card{
     .cards-container .cards{
         width: calc(100%/ 3);
         background-color: rgb(0, 132, 253);
-        border: 1px solid white;
+        
         
     }
     
@@ -133,6 +165,28 @@ div.white-card{
         display: flex;
         margin: 0 auto;
         width: 60%;
+    }
+
+    #benefits-section{
+        background-color: rgb(151, 146, 228);
+    }
+    
+    #benefits-container{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        
+    }
+    
+    
+    #benefits-container .benefit-card{
+        background-color: white;
+        color: rgb(151, 146, 228);
+        border-radius: 1.5rem;
+        margin: 5px;
+        font-size: 1.5rem;
+        width: calc(33% - 5px);
     }
 
     
