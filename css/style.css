@@ -130,6 +130,8 @@ div.plannig-container{
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 }
 
 #planning-section-font{
@@ -295,14 +297,56 @@ div.benefit-card>p{
 
 
 .article-about-us{
-    text-align: center;
-    background-color: aqua;
-
+  width: 80%;
+  padding: 3rem;
 }
+
+.article-about-us>h2{
+    font-size: 3rem;
+    padding: 2rem 0 2rem 0;
+    color: rgb(151, 146, 228);
+}
+
+.article-about-us>p{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
 .card-about-us{
-    background-color: bisque;
+    
     text-align: left;
     font-size: 1.5rem;
+}
+
+.card-about-us #img-about-us{
+    width: 80%;
+    padding: 2rem 0 2rem 1.5rem;
+}
+
+.card-about-us #img-about-us>img{
+    width: 50%;
+    border-radius: 5rem;
+}
+
+#profile-about-us{
+    padding: 3rem;
+    
+}
+
+#profile-about-us>p{
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+    color: rgb(151, 146, 228);
+}
+
+.about-us-button{
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    background-color: rgb(151, 146, 228);
+    padding: .7rem 3rem .7rem 3rem;
+    border-radius: 2rem
+
 }
 
 #last-section{
@@ -454,6 +498,29 @@ div.benefit-card>p{
         margin: 0 auto;
         width: 80%;
         display: flex;
+        padding: 3rem 0 4rem 0;
     }
     
+    .article-about-us{
+        width: 70%;
+        padding: 3rem;
+      }
+
+    .card-about-us{
+        width: 30%;
+    }
+
+    .card-about-us #img-about-us>img{
+        width: 70%;
+        
+    }
+
+    #profile-about-us{
+        padding: 0 0 0 1.5rem;
+    }
+
+    #profile-about-us>p{
+        font-size: 1.8rem;
+        width: 50%;
+    }
 }
