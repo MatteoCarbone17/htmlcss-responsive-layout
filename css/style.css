@@ -124,10 +124,20 @@ div#img-phone>img{
 } 
 
 
+div.plannig-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
 #planning-section-font{
     background-color: rgb(151, 146, 228);
     width: 100%;    
 }
+
+
 .img-container>img{
     width: 60%;
     padding: 3rem 0 2rem 0 ; 
@@ -208,7 +218,7 @@ div.white-card .planning-info>p{
 }
 
 div.benefit-card>p{
-color: black;
+    color: black;
 }
 
 
@@ -284,11 +294,22 @@ color: black;
         
     }
 
+    div.planning-card{
+        width: 50%;
+    }
+
 
     div.plannig-container{
         display: flex;
-        margin: 0 auto;
-        width: 60%;
+        flex-direction: row;
+    }
+    
+    div.white-card{
+        background-color: white;
+        border-radius: 3rem;
+        width: 30%;
+        padding: 1.5rem;
+        margin-bottom: 3rem;
     }
 
     #benefits-section{
