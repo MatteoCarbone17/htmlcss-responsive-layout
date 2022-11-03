@@ -185,18 +185,56 @@ div.white-card .planning-info>p{
 #testimonials{
     margin: 0 auto;
     width: 80%;
-    background: lightblue;
+    
     
 }
 
 .head-testimonial{
     margin: 1.5rem 0 1.5rem 0;
+    width: 80%;
+
 
 }
+
+.head-testimonial>h2{
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(151, 146, 228);
+    padding: 2rem 0 2rem 0;
+}
+
+.head-testimonial>p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.testimonial-img{
+    width: 80%;
+}
+
+.testimonial-img>img{
+    padding: 2rem 0 2rem 0;
+    width: 100%;
+    border-radius: 5rem;
+}
+
 
 .card-testimonial{
     background-color: rgb(151, 146, 228);
     margin: 1.5rem 0 1.5rem 0;
+    width: 80%;
+    border-radius: 3rem;
+}
+
+.testimonial-info>p{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0 1rem 1.5rem 1rem;
+
+}
+.testimonial-info{
+    width: 80%;
 }
 
 
@@ -311,6 +349,49 @@ div.benefit-card>p{
         padding: 1.5rem;
         margin-bottom: 3rem;
     }
+
+
+    .head-testimonial>h2{
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(151, 146, 228);
+        padding: 2rem 0 2rem 0;
+    }
+    
+    .head-testimonial>p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .card-testimonial{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+
+    .testimonial-img{
+        width: 30%;
+    }
+
+    .testimonial-img>img{
+        padding: 2rem 0 2rem 2rem;
+        height: 280px;
+        width: 300px;
+        border-radius: 60%;
+        overflow: hidden;
+        
+    }
+
+
+    .testimonial-info>p{
+        text-align: left;
+        color: white;
+        font-size: 1.3rem;
+        padding: 0 1rem 1.5rem 1rem;
+    
+    }
+    
 
     #benefits-section{
         background-color: rgb(151, 146, 228);
