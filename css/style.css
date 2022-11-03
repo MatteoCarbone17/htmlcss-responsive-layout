@@ -240,20 +240,54 @@ div.white-card .planning-info>p{
 
 #benefits-section{
     background-color: rgb(151, 146, 228);
+    padding: 1.5rem;
 }
 
 #benefits-container{
     margin: 0 auto;
     width: 80%;
+    margin-bottom: 3rem;
 }
-
+#title-benefit{
+    text-align: center;
+    font-size: 2.3rem;
+    color: white;
+    padding: 2.5rem 0 3rem 0;
+}
 
 .benefit-card{
     background-color: white;
     color: rgb(151, 146, 228);
     margin-bottom: 1.5rem;
     border-radius: 1.5rem;
+    padding: 1.5rem;
 }
+
+div.benefit-card>h3{
+    font-size: 3.5rem;
+    padding-bottom:1rem ;
+}
+
+div.benefit-card>span{
+    font-size: 1.8rem;
+}
+
+div.benefit-card>p{
+    font-size: 1.3rem;
+    padding: 2rem 0 1.5rem 0 ;
+}
+
+div.benefit-card .quality-button{
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    background-color: rgb(151, 146, 228);
+    padding: .7rem 3rem .7rem 3rem;
+    border-radius: 2rem;
+
+}
+
+
 
 div.benefit-card>p{
     color: black;
@@ -388,7 +422,7 @@ div.benefit-card>p{
         text-align: left;
         color: white;
         font-size: 1.3rem;
-        padding: 0 1rem 1.5rem 1rem;
+        margin-bottom:2rem;
     
     }
     
@@ -402,8 +436,8 @@ div.benefit-card>p{
         width: 80%;
         display: flex;
         flex-wrap: wrap;
-        background-color: red;
-        
+        margin-bottom: 3rem;
+          
     }
     
     
