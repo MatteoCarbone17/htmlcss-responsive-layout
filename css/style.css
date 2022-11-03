@@ -187,8 +187,8 @@ div.white-card .planning-info>p{
 #testimonials{
     margin: 0 auto;
     width: 80%;
-    
-    
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .head-testimonial{
@@ -382,7 +382,7 @@ div.benefit-card>p{
 
 #div-last-section>p{
     font-size: 1.3rem;
-    width: 50%;
+    width: 80%;
     padding-bottom: 1.5rem;
     color: white;
     text-align: center; 
@@ -404,7 +404,19 @@ div.benefit-card>p{
 
 #footer{
     background-color: rgb(51, 51, 51);
-    height: 20vh;
+}
+
+#footer-container{
+    width: 80%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer-container>p{
+    color: white;
+    text-align: center;
+    padding-bottom:2rem;
+    padding-top: 2rem;
 }
 
 /* Desktop*/
@@ -570,4 +582,29 @@ div.benefit-card>p{
         font-size: 1.8rem;
         width: 50%;
     }
+
+    #div-last-section>h4{
+        font-size: 7rem;
+        padding-bottom: 1.5rem;
+        color: rgb(253, 193, 95);  
+    }
+
+
+    #div-last-section>h3{
+        font-size: 3rem;
+          
+    }
+
+    #div-last-section>p{
+        padding-bottom:1.5rem;
+        width: 40%;
+          
+    }
+
+    #footer-container{
+        width: 30%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
 }
