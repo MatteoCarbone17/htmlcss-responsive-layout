@@ -435,13 +435,14 @@ div.benefit-card>p{
         flex-wrap: wrap;
         margin: 0 auto;
         width: 80%;
+        padding-left: 3rem;
         margin-top: 3.5rem;
         margin-bottom: 3.5rem;
         
     }
 
     .cards-container>.cards-blu{
-        width: calc(30% - 2rem);
+        width: calc(33% - 2rem);
         background-color: rgb(181, 221, 255);
         margin: 1rem;
         
@@ -450,7 +451,7 @@ div.benefit-card>p{
     }
     
     .cards-container>.cards-blu:first-child{
-        width: calc(60% - 2rem) ;
+        width: calc(66% - 2rem) ;
         background-color: rgb(181, 221, 255);
         display: flex;
         
