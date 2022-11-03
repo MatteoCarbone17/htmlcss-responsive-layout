@@ -87,8 +87,6 @@ div.nav-bar>i{
 }
 
 
-
-
 .cards-blu>h3{
     color: rgb(0, 132, 253);
     font-size: 2rem;
@@ -130,11 +128,48 @@ div#img-phone>img{
     background-color: rgb(151, 146, 228);
     width: 100%;    
 }
+.img-container>img{
+    width: 60%;
+    padding: 3rem 0 2rem 0 ; 
+}
 
+
+
+div.planning-info>h3{
+    color: white;
+    font-size: 2.5rem;
+    padding: 1rem 0 3rem 0;
+
+}
+
+.planning-info>p{
+    color: white;
+    width: 80%;
+    font-size: 1.3rem;
+    padding: 0 0 3rem 0;
+
+}
 
 div.white-card{
     background-color: white;
+    border-radius: 3rem;
+    width: 80%;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
 }
+
+div.white-card .planning-info>h3{
+    color: black;
+    font-size: 1.4rem;
+    
+}
+
+div.white-card .planning-info>p{
+    color: black;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
 
 
 #testimonials{
